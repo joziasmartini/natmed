@@ -118,3 +118,7 @@ Assim sendo, no time composto por seis membros, temos o cap table de 16,6% para 
 No diluation table, concordamos em também realizar a diluição das porcentagens de forma igual.
 
 Ou seja, ao investidores entrarem, a diluição de capital será igual para todos os membros fundadores.
+
+## Licença
+
+Todos os direitos estão reservados aos fundadores da empresa, criadores das ideias e dos documentos. Esse material não deve ser reutilizado de nenhuma forma sem a opinião expressa de todos os fundadores.
