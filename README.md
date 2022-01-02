@@ -5,93 +5,28 @@
 </p>
 
 <p align="center">
-  Uma aplicação que diagnostica sintomas e fornece tratamentos com medicina natural.
+  Diagnose symptoms in less than a minute and receive natural treatments.
 </p>
 
 <br>
 
-## Protótipo
+## Prototype
 
 <p align="center">
   <img src="documents/prototype.png">
 </p>
 
-## Embalagem de Produto
+## Package
 
 <p align="center">
-  <img src="documents/bags.png" width="700px">
+  <img src="documents/bags.png" width="500px">
 </p>
 
-## Pitch Inicial
+## Pitch
 
-Estamos em uma época muito urgente para a área da saúde, e apesar do mundo inteiro estar juntando esforços, ainda há muito a ser feito. 
+(Temporarily moved).
 
-É comum, mesmo isso sendo incômodo, que precisemos nos organizar e nos deslocar até os médicos locais para consultar ou tratar algum problema de saúde.
-
-Mas a verdade é que, boa parte dos procedimentos poderiam ser feitos a distância, e ainda outros poderiam ser realizados pelo profissional em domicílio.
-
-Num mundo modernizado que estamos, com necessidade de distanciamento e problemas de mobilidade, por que não podemos solicitar um médico como solicitamos uma entrega?
-
-Assim como refeições, remédios ou mesmo carros podem ser comprados ou alugados com alguns cliques, especialistas da área da saúde também deveriam ser.
-
-É isso o que fazemos, nós lapidamos a área médica para que a mesma atenda ao mundo moderno, seja a distância, ou mesmo em domicílio.
-
-## Questionários
-
-Nós realizamos dois questionários iniciais para o projeto.
-
-<details>
-  <summary>Questionário 01</summary>
-  
-  1) Eu sou:
-
-  - a) Empresário;
-  - b) Comerciante;
-  - c) Funcionário
-  - d) Outro: (descrever)
-
-  2) Quantos funcionários em média a sua empresa possui?
-
-  3) Qual é o seu ramo de atuação ?
-
-  4) Quanto tempo você está nesse ramo?
-
-  5) O que mudou na rotina da empresa com o início da pandemia?
-
-  6) Como é feita a verificação dos funcionários ou clientes se eles estão usando máscaras ou algum outro EPI obrigatório?
-
-  7) Existe algum processo na empresa que você gostaria que fosse automatizado? Qual?
-
-  8) Existe alguma fiscalização durante o expediente para verificar se as pessoas estão utilizando máscara e/ou equipamento de proteção?
-
-  9) Você já investiu alguma vez em uma tecnologia que visasse melhorar algum processo da empresa? Se sim, qual foi a sua experiência?
-
-  10) Você pretende investir em alguma tecnologia que automatize o monitoramento do funcionário durante o expediente?
-
-</details>
-
-<details>
-  <summary>Questionário 02</summary>
-  
-  - Qual exame é o mais procurado por pacientes?
-
-  - Sobre o que os pacientes e você (médico) sentem mais dificuldade quando vão fazer o exame?
-
-  - Quantos exames em média é preciso para para diagnosticar uma doença?
-
-  - Quanto tempo em média leva para ter um diagnóstico geral sobre a condição do paciente?
-
-  - Na relação entre médico e paciente, o que poderia ser melhor? Existe espaço para a tecnologia nisso?
-
-  - Existe alguma coisa que poderia ser facilitada ou automatizada com relação ao atendimento, exames, diagnósticos ou documentos?
-
-  - Em geral, os pacientes buscam atendimento médico em que nível de sintomas, leves, moderados ou graves?
-
-  - Quando o paciente demora a buscar atendimento médico, quais os principais fatores que você acha que são responsáveis pela demora?
-  
-</details>
-
-## Canvas do Modelo de Negócio
+## Canvas
 
 | Seção  |  Descrição  |
 | :--- | :--- |
@@ -107,18 +42,8 @@ Nós realizamos dois questionários iniciais para o projeto.
 
 ## Landing Page
 
-O link para a landing page de lançamento do aplicativo está disponível [neste link](http://everaldo332-rdsm-site.rds.land/natmed).
+The launch landing page is active [here](http://everaldo332-rdsm-site.rds.land/natmed) (temporarily moved).
 
-## Cap Table e Diluation Table
+## Licence
 
-Nós acordamos em grupo que o cap table seria uma porcentagem igual entre os membros.
-
-Assim sendo, no time composto por seis membros, temos o cap table de 16,6% para cada.
-
-No diluation table, concordamos em também realizar a diluição das porcentagens de forma igual.
-
-Ou seja, ao investidores entrarem, a diluição de capital será igual para todos os membros fundadores.
-
-## Licença
-
-Todos os direitos estão reservados aos fundadores da empresa, criadores das ideias e dos documentos. Esse material não deve ser reutilizado de nenhuma forma sem a opinião expressa de todos os fundadores.
+All rights are reserved to the founders of the company, creators of the ideas and documents. This material must not be reused in any way without the express opinion of all founders.
