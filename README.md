@@ -24,6 +24,9 @@ To solve this problem, we created Natmed: an application that uses artificial in
   <img src="documents/prototype.png">
 </p>
 
+## Development
+This project is under private development. Part of the systems are ready or being developed. If you are interested in investing in this application, you can talk to the author of it.
+
 ## Licence
 
 All rights are reserved to the founders of the company, creators of the ideas and documents. This material must not be reused in any way without the express opinion of all founders.
