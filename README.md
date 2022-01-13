@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Diagnose symptoms in less than a minute and receive natural treatments.
+  Diagnose symptoms and receive treatments in less than a minute.
 </p>
 
 <br>
