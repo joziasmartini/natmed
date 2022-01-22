@@ -21,7 +21,7 @@ To solve this problem, we created Natmed: an application that uses artificial in
 ## Prototype
 
 <p align="center">
-  <img src="documents/prototype.png">
+  <img src="doc/prototype.png">
 </p>
 
 ## Development
