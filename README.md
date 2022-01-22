@@ -1,7 +1,7 @@
 <br><br>
 
 <p align="center">
-  <img src="documents/logo-without-background.png" width="400px">
+  <img src="doc/logo-without-background.png" width="400px">
 </p>
 
 <p align="center">
