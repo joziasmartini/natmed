@@ -1,0 +1,1 @@
+// List of symptoms to create diagnosis
