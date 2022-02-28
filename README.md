@@ -25,7 +25,17 @@ To solve this problem, we created Natmed: an application that uses artificial in
 </p>
 
 ## Development
+
 This project is under private development. Part of the systems are ready or being developed. If you are interested in investing in this application, you can talk to the author of it.
+
+## Technologies
+
+- [Vue 3 (w/ Router, Vuex)](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [ESLint](https://eslint.org/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Cypress](https://www.cypress.io/)
 
 ## Licence
 
