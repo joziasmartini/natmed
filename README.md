@@ -26,7 +26,7 @@ To solve this problem, we created Natmed: an application that uses artificial in
 
 ## Development
 
-This project is under private development. Part of the systems are ready or being developed. If you are interested in investing in this application, you can talk to the author of it.
+This project is under private development and is being promoted with the objective of obtaining investment.
 
 ## Technologies
 
@@ -37,6 +37,6 @@ This project is under private development. Part of the systems are ready or bein
 - [Jest](https://jestjs.io/pt-BR/)
 - [Cypress](https://www.cypress.io/)
 
-## Licence
+## License
 
-All rights are reserved to the founders of the company, creators of the ideas and documents. This material must not be reused in any way without the express opinion of all founders.
+All rights are reserved to the founders of the company, creators of the ideas and documents. This material must not be reused in any way without the express opinion of the author.
