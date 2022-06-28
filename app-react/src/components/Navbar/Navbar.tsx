@@ -1,20 +1,25 @@
 import "./Navbar.sass";
+import { House, GearSix, Question, User } from "phosphor-react";
 
 type Props = {
-  options: string[];
+  theme: string;
 };
 
-export default function Navbar({ options }: Props) {
+export default function Navbar({ theme }: Props) {
   return (
     <div className="navbar">
-      {options.map((opt) => {
-        return (
-          <span className="navbar-option">
-            <span className="navbar-icon"></span>
-            {opt}
-          </span>
-        );
-      })}
+      <span className="navbar-option">
+        <House size={32} />
+      </span>
+      <span className="navbar-option">
+        <GearSix size={32} />
+      </span>
+      <span className="navbar-option">
+        <Question size={32} />
+      </span>
+      <span className="navbar-option">
+        <User size={32} />
+      </span>
     </div>
   );
 }
