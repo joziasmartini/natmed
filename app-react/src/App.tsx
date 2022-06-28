@@ -5,9 +5,10 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <Interface>
-      <Button text="Button" />
-      <Button text="Button" />
-      <Navbar options={["1", "2", "3", "4"]} />
+      <Button type="primary" text="Button" />
+      <Button type="secondary" text="Button" />
+      <Button type="danger" text="Button" />
+      <Navbar theme="light" />
     </Interface>
   );
 }
