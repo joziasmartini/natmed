@@ -1,13 +1,14 @@
 import Button from "./components/Button/Button";
+import Input from "./components/Input/Input";
 import Interface from "./components/Interface/Interface";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <Interface>
-      <Button type="primary" text="Button" />
-      <Button type="secondary" text="Button" />
-      <Button type="danger" text="Button" />
+      <Input type="text" placeholder="Email" />
+      <Input type="password" placeholder="Password" />
+      <Button type="primary" text="Login" />
       <Navbar theme="light" />
     </Interface>
   );
