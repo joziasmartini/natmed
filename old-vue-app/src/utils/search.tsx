@@ -1,1 +1,0 @@
-// When user search for symptoms
