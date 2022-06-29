@@ -1,9 +1,12 @@
+import "./Input.sass";
+
 type Props = {
   label?: string;
+  type: string;
   placeholder: string;
 };
 
-export default function Input({ label, placeholder }: Props) {
+export default function Input({ label, type, placeholder }: Props) {
   return (
     <div className="input">
       {label && (
@@ -11,7 +14,7 @@ export default function Input({ label, placeholder }: Props) {
           {label}
         </label>
       )}
-      <input className="input-input" type="text" placeholder={placeholder} />
+      <input className="input-input" type={type} placeholder={placeholder} />
     </div>
   );
 }

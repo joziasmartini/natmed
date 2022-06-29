@@ -1,10 +1,29 @@
+@import "../../Global.sass";
+
 .input
   display: flex
+  justify-content: center
 
 .input-label
   font-size: 14px
 
 .input-input
   background: transparent
-  border: 1px solid #aaa
+  margin: 10px
+  padding: 10px
+  border: 1px solid #ddd
   border-radius: 50px
+  color: $main-color
+
+  &:focus
+    outline: 2px solid #eee
+
+  &::placeholder // Chrome, Firefox, Opera, Safari 10.1+
+    color: #ddd
+    opacity: 1 // Firefox 
+
+  &:-ms-input-placeholder // Internet Explorer 10-11
+    color: #ddd
+
+  &::-ms-input-placeholder // Microsoft Edge
+    color: #ddd
