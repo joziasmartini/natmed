@@ -4,9 +4,10 @@ type Props = {
   label?: string;
   type: string;
   placeholder: string;
+  action: Function;
 };
 
-export default function Input({ label, type, placeholder }: Props) {
+export default function Input({ label, type, placeholder, action }: Props) {
   return (
     <div className="input">
       {label && (
@@ -14,7 +15,12 @@ export default function Input({ label, type, placeholder }: Props) {
           {label}
         </label>
       )}
-      <input className="input-input" type={type} placeholder={placeholder} />
+      <input
+        className="input-input"
+        type={type}
+        placeholder={placeholder}
+        onChange={(event) => action(event.target.value)}
+      />
     </div>
   );
 }
