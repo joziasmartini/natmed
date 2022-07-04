@@ -5,10 +5,10 @@ import {
   Routes,
   Route, 
 } from "react-router-dom";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./Global.sass";
-import Search from "./views/Search";
+import Search from "./views/Search/Search";
+import Login from "./views/Login/Login";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Login />} />
       <Route path="/search" element={<Search />} />
     </Routes>
     </BrowserRouter>
