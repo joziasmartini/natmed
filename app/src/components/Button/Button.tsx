@@ -8,7 +8,7 @@ type Props = {
 
 export default function Button({ text, type, action }: Props) {
   return (
-    <div className={`button ${type}`} onClick={() => action("login")}>
+    <div className={`button ${type}`} onClick={(event) => action("login", event)}>
       {text}
     </div>
   );
