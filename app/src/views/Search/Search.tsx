@@ -1,15 +1,16 @@
 import "./Search.sass";
 import Interface from "./../../components/Interface/Interface";
-import Space from "../../components/Space/Space";
 import Navbar from "../../components/Navbar/Navbar";
+import SearchInput from "../../components/SearchInput/SearchInput";
+import TopBar from "../../components/TopBar/TopBar";
 
 function Search() {
 
   return (
     <Interface>
-      <input type="search" />
-      <Space pixels={120} />
-      <Navbar theme="light" />
+        <TopBar back />
+        <SearchInput />
+        <Navbar theme="light" />
     </Interface>
   );
 }
