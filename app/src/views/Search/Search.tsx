@@ -5,7 +5,6 @@ import SearchInput from "../../components/SearchInput/SearchInput";
 import TopBar from "../../components/TopBar/TopBar";
 
 function Search() {
-
   return (
     <Interface>
         <TopBar back />
