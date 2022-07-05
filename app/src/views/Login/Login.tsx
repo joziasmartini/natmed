@@ -8,7 +8,6 @@ import Button from "./../../components/Button/Button";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -29,7 +28,7 @@ function Login() {
       <Version info={Package.version} />
       <Input type="text" placeholder="Email" action={setEmail} />
       <Input type="password" placeholder="Password" action={setPassword} />
-      <Link to="/search">
+      <Link to="/symptoms">
         <Button type="primary" text="Login" action={clickHandle} />
       </Link>
     </Interface>

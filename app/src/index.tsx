@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import "./Global.sass";
-import Search from "./views/Search/Search";
+import Symptoms from "./views/Symptoms/Symptoms";
 import Login from "./views/Login/Login";
 import Diagnosis from "./views/Diagnosis/Diagnosis";
 import AOS from 'aos';
@@ -24,8 +24,14 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/search" element={<Search />} />
+      <Route path="/symptoms" element={<Symptoms />} />
       <Route path="/diagnosis" element={<Diagnosis />} />
+
+      {/* Route when the user selects a disease to know more about */}
+      {/* <Route path="/details" element={<Details />} /> */}
+
+      {/* Route when the user clicks on treatments on a detailed disease */}
+      {/* <Route path="/products" element={<Products />} /> */}
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
