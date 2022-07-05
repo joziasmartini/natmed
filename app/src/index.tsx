@@ -10,6 +10,11 @@ import "./Global.sass";
 import Search from "./views/Search/Search";
 import Login from "./views/Login/Login";
 import Diagnosis from "./views/Diagnosis/Diagnosis";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration: 900,
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
