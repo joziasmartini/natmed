@@ -1,15 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { 
-  BrowserRouter, 
-  Routes,
-  Route, 
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import "./Global.sass";
 import Symptoms from "./views/Symptoms/Symptoms";
 import Login from "./views/Login/Login";
 import Diagnosis from "./views/Diagnosis/Diagnosis";
+
+// Animation library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
@@ -23,7 +21,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/symptoms" element={<Symptoms />} />
       <Route path="/diagnosis" element={<Diagnosis />} />
 
