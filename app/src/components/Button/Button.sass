@@ -1,19 +1,22 @@
 @import "../../Global.sass";
   
 .button 
-  @include unselectable;
-  margin: 2rem auto
-  padding: 8px 24px
+  @include unselectable
+  display: block
   width: 30%
+  padding: 8px 24px
   border-radius: 100px
   display: inline-block
   background: lightgray
   cursor: pointer
   font-weight: bold
   color: white
-  
+
+.text
+  text-align: center
+
 .primary
-  background: $main-color
+  background: $primary
 
 .secondary
   background: white
