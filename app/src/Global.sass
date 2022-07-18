@@ -1,18 +1,52 @@
+// Global SASS
+// This is the file with our global variables
+// It can be considered our design system
+
+// Imports
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
 
-$main-color: #5EB493
+// Colors
+$primary: #5EB493
+$primary-light: #99c2b2
+$primary-dark: #296161
+$white: #ffffff;
+$gray-98: #f3f3f3;
+$gray-95: #EDEDED;
+$gray-90: #E3E3E3;
+$gray-85: #D9D9D9;
+$gray-80: #CCCCCC;
+$gray-75: #C0C0C0;
+$gray-70: #B0B0B0;
+$gray-60: #999999;
+$gray-50: #808080;
+$gray-45: #727272;
+$gray-40: #696969;
+$gray-30: #4D4D4D;
+$gray-20: #363636;
+$gray-15: #222222;
+$gray-10: #171717;
+$black: #000000;
 
+// Screen sizes
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+// Turn the content unselectable by the user
 @mixin unselectable()
   -webkit-user-select: none // Safari     
   -moz-user-select: none // Firefox
-  -ms-user-select: none // IE10+/Edge
+  -ms-user-select: none // IE10+ and Edge
   user-select: none // Standard
-  
+
+// Global body styles
 body
   margin: 0
   padding: 0
   box-sizing: border-box
   font-family: 'Lato', sans-serif
 
+// Global button and input styles
 button, input
   font-family: 'Lato', sans-serif
