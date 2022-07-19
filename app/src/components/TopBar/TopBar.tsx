@@ -9,8 +9,8 @@ type Props = {
 export default function TopBar({back, exit}: Props) {
   return (
     <div className="topbar">
-      { back && <ArrowLeft size={32} /> }
-      { exit && <SignOut size={32} /> }
+      { back && <ArrowLeft size={28} /> }
+      { exit && <SignOut size={28} /> }
     </div>
   )
 }
