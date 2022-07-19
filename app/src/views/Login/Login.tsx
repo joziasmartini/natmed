@@ -6,6 +6,7 @@ import Logo from "./../../components/Logo/Logo";
 import Version from "./../../components/Version/Version";
 import Input from "./../../components/Input/Input";
 import Button from "./../../components/Button/Button";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -27,7 +28,9 @@ function Login() {
       <Version info={Package.version} />
       <Input type="text" placeholder="Email" action={setEmail} />
       <Input type="password" placeholder="Password" action={setPassword} />
-      <Button type="primary" text="Login" action={clickHandle} linkTo="/symptoms" />
+      <Link to="/symptoms">
+        <Button type="primary" text="Login" action={clickHandle} />
+      </Link>
     </Interface>
   );
 }
