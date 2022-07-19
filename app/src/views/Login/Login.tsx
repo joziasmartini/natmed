@@ -24,13 +24,17 @@ function Login() {
 
   return (
     <Interface>
-      <Logo />
-      <Version info={Package.version} />
-      <Input type="text" placeholder="Email" action={setEmail} />
-      <Input type="password" placeholder="Password" action={setPassword} />
-      <Link to="/symptoms">
-        <Button type="primary" text="Login" action={clickHandle} />
-      </Link>
+      <div>{/* Empty element to fit on interface spacing configuration */}</div>
+      <div>
+        <Logo />
+        <Version info={Package.version} />
+        <Input type="text" placeholder="Email" action={setEmail} />
+        <Input type="password" placeholder="Password" action={setPassword} />
+        <Link to="/symptoms">
+          <Button type="primary" text="Login" action={clickHandle} />
+        </Link>
+      </div>
+      <div>{/* Empty element to fit on interface spacing configuration */}</div>
     </Interface>
   );
 }
