@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Login.sass";
 import Package from "../../../package.json";
 import Interface from "./../../components/Interface/Interface";
@@ -5,8 +6,6 @@ import Logo from "./../../components/Logo/Logo";
 import Version from "./../../components/Version/Version";
 import Input from "./../../components/Input/Input";
 import Button from "./../../components/Button/Button";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -28,9 +27,7 @@ function Login() {
       <Version info={Package.version} />
       <Input type="text" placeholder="Email" action={setEmail} />
       <Input type="password" placeholder="Password" action={setPassword} />
-      <Link to="/symptoms">
-        <Button type="primary" text="Login" action={clickHandle} />
-      </Link>
+      <Button type="primary" text="Login" action={clickHandle} linkTo="/symptoms" />
     </Interface>
   );
 }
