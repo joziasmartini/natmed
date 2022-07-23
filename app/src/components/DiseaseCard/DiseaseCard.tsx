@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import { ClipboardText } from "phosphor-react";
 import "./DiseaseCard.sass";
 
 type Props = {
@@ -10,7 +10,7 @@ export default function DiseaseCard({disease}: Props) {
     <div>
       <div className="disease-container">
         <div className="disease-card">
-          <img className="disease-card-image" src="https://source.unsplash.com/60x60" alt="" />
+          <ClipboardText size={100} color="#5EB493"/>
           <div className="disease-card-text">
             <h2 className="disease-card-name">Asma</h2>
             <p className="disease-card-description">Uma inflamação das vias aéreas que persiste durante muito tempo</p>
