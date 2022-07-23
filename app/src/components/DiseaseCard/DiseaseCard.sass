@@ -1,24 +1,63 @@
 @import "../../Global.sass";
+
+.disease-container
+  margin: 0 auto
+  padding: 14px
+  width: 80%
+  border: 1px solid $gray-90
+  border-radius: 7px
   
 .disease-card 
-  margin: 0 auto
-  width: 70%
+  display: flex
+  justify-content: space-between
+
+.disease-card-text
+  margin-left: 10px 
+  text-align: left
 
 .disease-card-image
+  width: 50px
+  height: 50px
   border-radius: 50%
 
 .disease-card-name
-  font-size: 20px
+  font-size: 18px
   margin: 0
   padding: 0
   color: $primary
 
 .disease-card-description
+  margin: 10px 0
   color: $gray-60
 
+.disease-card-tag-container
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  margin-top: 10px
+
 .disease-card-tag-item
-  padding: 5px 20px
+  padding: 3px 15px
+  margin: 3px 3px 3px 0
   border-radius: 100px
-  background: $primary
+  background: $gray-80
   font-weight: bold
-  color: white
+  color: $gray-40
+  font-size: 12px
+  font-weight: 500
+  white-space: nowrap
+
+.disease-card-buttons 
+  margin: 0 auto
+  width: 80%
+  display: flex
+  justify-content: space-between
+
+  & > a
+    margin: 5px 0
+    padding: 3px 15px
+    background: $primary
+    color: white
+    font-weight: bold
+    text-decoration: none
+    border-radius: 100px
