@@ -10,7 +10,7 @@ export default function Tags({tags}: Props) {
       <div className="tag-container">
         {
           tags.map(tag => {
-            return <span className="tag-item">{tag}</span>;
+            return <span className="tag-item" data-aos="zoom-in-down">{tag}</span>;
           })
         }
       </div>
