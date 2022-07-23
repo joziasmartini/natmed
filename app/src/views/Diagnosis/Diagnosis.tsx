@@ -5,15 +5,13 @@ import TopBar from "../../components/TopBar/TopBar";
 import DiseaseCard from "../../components/DiseaseCard/DiseaseCard";
 import { Link } from "react-router-dom";
 
-type Props = {}
-
-export default function Diagnosis({}: Props) {
+export default function Diagnosis() {
   return (
     <Interface>
         <Link to="/symptoms">
           <TopBar back />
         </Link>
-        <DiseaseCard />
+        <DiseaseCard disease={""}/>
         <Navbar theme="light" />
     </Interface>
   );
