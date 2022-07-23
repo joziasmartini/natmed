@@ -36,7 +36,7 @@ function Login() {
         <Input type="text" placeholder="Email" action={setEmail} />
         <Input type="password" placeholder="Password" action={setPassword} />
         {accountError && <span className="login-error">Seu email ou password está incorreto.</span>}
-        <Button type="primary" text="Login" action={clickHandle} />
+        <Button type="primary" text="Login" action={clickHandle} width={100} />
       </div>
       <Space pixels={0} />
     </Interface>
