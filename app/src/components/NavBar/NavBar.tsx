@@ -10,7 +10,7 @@ export default function Navbar({ theme }: Props) {
   return (
     <div className="navbar">
       <span className="navbar-option">
-        <Link to="/login">
+        <Link to="/">
           <House size={30} />
         </Link>
       </span>
