@@ -18,8 +18,10 @@ export default function SearchInput({saveSymptoms, savedSymptoms}: Props) {
   function keyPress(e: any){
     // If user press enter
     if(e.keyCode === 13){;
-      saveSymptoms([...savedSymptoms, inputValue]);
-      setInputValue("");
+      if (inputValue.length > 0) {
+        saveSymptoms([...savedSymptoms, inputValue]);
+        setInputValue("");
+      }
     }
   }
 
@@ -28,7 +30,7 @@ export default function SearchInput({saveSymptoms, savedSymptoms}: Props) {
       <input 
         className="search-input-input" 
         type="text" 
-        placeholder="How you are feeling?"
+        placeholder="O que está sentindo?"
         value={inputValue}
         onChange={e => handleChange(e)}
         onKeyDown={e => keyPress(e)}
