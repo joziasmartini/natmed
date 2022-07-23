@@ -1,4 +1,4 @@
-import "./Navbar.sass";
+import "./NavBar.sass";
 import { House, GearSix, Question, User } from "phosphor-react";
 import { Link } from "react-router-dom";
 

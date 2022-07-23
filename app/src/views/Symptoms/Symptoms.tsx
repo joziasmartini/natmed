@@ -2,7 +2,7 @@ import "./Symptoms.sass";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Interface from "../../components/Interface/Interface";
-import Navbar from "../../components/Navbar/Navbar";
+import NavBar from "../../components/NavBar/NavBar";
 import SearchInput from "../../components/SearchInput/SearchInput";
 import TopBar from "../../components/TopBar/TopBar";
 import Button from "../../components/Button/Button";
@@ -21,7 +21,7 @@ function Symptoms() {
         <Link to="/diagnosis">
           <Button type="primary" text="Gerar Diagnóstico" action={() => {}} />
         </Link>
-        <Navbar theme="light" />
+        <NavBar theme="light" />
     </Interface>
   );
 }
