@@ -26,7 +26,7 @@ export default function SearchInput({saveSymptoms, savedSymptoms}: Props) {
   }
 
   return (
-    <div className=".search-input" data-aos="zoom-in-up">
+    <div className=".search-input">
       <input 
         className="search-input-input" 
         type="text" 
