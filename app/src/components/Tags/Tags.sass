@@ -1,12 +1,21 @@
 @import "../../Global.sass";
+
+.tags-title
+  color: $gray-50
   
 .tag-container
-  width: 300px  
+  max-width: 300px  
   display: flex
+  justify-content: center
+  flex-wrap: wrap;
   margin: 10px
 
 .tag-item 
   border: none
-  border-radius: 5px
-  background: $gray-80
+  border-radius: 50px
+  background: $gray-90
   color: $primary-dark
+  margin: 5px
+  padding: 3px 10px
+  white-space: nowrap
+  font-weight: 500
