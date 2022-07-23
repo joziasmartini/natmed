@@ -6,8 +6,7 @@ type Props = {
 
 export default function Tags({tags}: Props) {
   return (
-    <div>
-      <p className="tags-title">Sintomas</p>
+    <div className="tags">
       <div className="tag-container">
         {
           tags.map(tag => {
