@@ -8,8 +8,8 @@ export default function DiseaseCard({}: Props) {
       <img className="disease-card-image" src="https://source.unsplash.com/60x60" alt="Unsplash Image" />
       <h2 className="disease-card-name">Disease name</h2>
       <p className="disease-card-description">Disease description comes here with more words and a...</p>
-      <div className="tag-container">
-        <span className="tag-item">Tag</span>
+      <div className="disease-card-tag-container">
+        <span className="disease-card-tag-item">Tag</span>
       </div>
     </div>
   )
