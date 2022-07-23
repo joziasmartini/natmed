@@ -10,6 +10,7 @@ import Diagnosis from "./views/Diagnosis/Diagnosis";
 // Animation library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Loading from "./views/Loading/Loading";
 AOS.init({
   duration: 900,
 });
@@ -21,6 +22,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+      <Route path="/" element={<Loading />} />
       <Route path="/login" element={<Login />} />
       <Route path="/symptoms" element={<Symptoms />} />
       <Route path="/diagnosis" element={<Diagnosis />} />
