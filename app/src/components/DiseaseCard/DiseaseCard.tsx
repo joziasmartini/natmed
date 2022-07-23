@@ -5,6 +5,10 @@ type Props = {
   disease: string; // disease to display
 }
 
+function unfinishedFunctionality() {
+  alert("Essa funcionalidade ainda não está disponível.");
+}
+
 export default function DiseaseCard({disease}: Props) {
   return (
     <div>
@@ -24,8 +28,18 @@ export default function DiseaseCard({disease}: Props) {
         </div>
       </div>
       <div className="disease-card-buttons">
-        <a href="#" className="disease-card-description-button">Descrição</a>
-        <a href="#" className="disease-card-treatment-button">Tratamentos</a>
+        <a 
+          href="#" 
+          className="disease-card-description-button" 
+          onClick={unfinishedFunctionality}>
+            Descrição
+        </a>
+        <a 
+          href="#" 
+          className="disease-card-treatment-button" 
+          onClick={unfinishedFunctionality}>
+            Tratamentos
+        </a>
       </div>
     </div>
   )
