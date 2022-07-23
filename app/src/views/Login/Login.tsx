@@ -30,14 +30,14 @@ function Login() {
   return (
     <Interface>
       <Space pixels={0} />
-      <>
+      <div>
         <Logo />
         <Version info={Package.version} />
         <Input type="text" placeholder="Email" action={setEmail} />
         <Input type="password" placeholder="Password" action={setPassword} />
         {accountError && <span className="login-error">Your email or password is incorrect.</span>}
         <Button type="primary" text="Login" action={clickHandle} />
-      </>
+      </div>
       <Space pixels={0} />
     </Interface>
   );
