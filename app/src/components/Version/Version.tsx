@@ -5,5 +5,5 @@ type Props = {
 };
 
 export default function Version({ info }: Props) {
-  return <div className="version">Version {info}</div>;
+  return <div className="version">Versão {info}</div>;
 }
