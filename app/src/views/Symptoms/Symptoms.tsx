@@ -19,7 +19,12 @@ function Symptoms() {
         <SearchInput saveSymptoms={setSymptoms} savedSymptoms={symptoms}/>
         <Tags tags={symptoms}/>
         <Link to="/diagnosis">
-          <Button type="primary" text="Gerar Diagnóstico" action={() => {}} />
+          <Button 
+            type="primary" 
+            text="Gerar Diagnóstico" 
+            action={() => {}} 
+            disabled={symptoms.length === 0} 
+          />
         </Link>
         <NavBar theme="light" />
     </Interface>
