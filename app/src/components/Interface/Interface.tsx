@@ -5,5 +5,5 @@ type Props = {
 };
 
 export default function Interface({ children }: Props) {
-  return <div className="interface">{children}</div>;
+  return <div className="interface" data-aos="zoom-in">{children}</div>;
 }

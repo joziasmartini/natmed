@@ -5,5 +5,5 @@ type Props = {
 };
 
 export default function Version({ info }: Props) {
-  return <div className="version" data-aos="zoom-in">Version {info}</div>;
+  return <div className="version">Version {info}</div>;
 }
