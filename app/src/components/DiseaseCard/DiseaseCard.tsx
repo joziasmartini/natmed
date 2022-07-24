@@ -35,7 +35,7 @@ export default function DiseaseCard({disease}: Props) {
             href="#" 
             className="disease-card-button-link" 
             onClick={unfinishedFunctionality}>
-              <span>Descrição</span> 
+              <span>Conhecer</span> 
               <span className="disease-card-button-link-icon">
                 <CaretRight size={18} />
               </span>
