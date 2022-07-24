@@ -8,25 +8,25 @@
   border-radius: 7px
   
 .disease-card 
-  display: flex
-  justify-content: space-between
+  margin: 3px 3px 20px 
+  text-align: left
 
 .disase-card-icon
-  align-self: flex-start
-
-.disease-card-text
-  margin-left: 10px 
-  text-align: left
+  display: inline-block
+  margin: 0 0 8px
 
 .disease-card-name
   font-size: 18px
   margin: 0
   padding: 0
   color: $primary
+  align-items: baseline
 
 .disease-card-description
   margin: 10px 0
+  line-height: 24px
   color: $gray-60
+  font-size: 15px
 
 .disease-card-tag-container
   display: flex
@@ -50,18 +50,22 @@
   display: flex
   justify-content: space-between
 
-  & > a
-    margin: 20px 0 0
-    padding: 5px 15px
-    background: $primary
-    color: white
-    font-weight: bold
-    text-decoration: none
-    border-radius: 100px
-    font-size: 14px
+.disease-card-button-link
+  display: flex
+  margin: 20px 0 0
+  padding: 3px
+  color: $primary
+  font-weight: bold
+  text-decoration: none
+  border-radius: 100px
+  font-size: 16px
 
-    &:active
-      color: white
+  &:active
+    color: $primary
 
-    &:visited
-      color: white
+  &:visited
+    color: $primary
+
+.disease-card-button-link-icon
+  margin-top: 2px
+  vertical-align: baseline
