@@ -29,7 +29,7 @@ root.render(
         {/* Screen where the user tell the symptoms */}
         <Route path="/symptoms" element={<Symptoms />} /> 
 
-        {/* Where we show the processed diagnosis and informations */}
+        {/* Where we show the processed diagnosis with diseases */}
         <Route path="/diagnosis" element={<Diagnosis />} /> 
 
         {/* Screen when the user selects the "know more" button on a disease card */}
