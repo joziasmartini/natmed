@@ -17,7 +17,7 @@ function Login() {
 
   const clickHandle = (type: string, event?: any) => {
     if (type === "login") {
-      if (email === "jozias.martini@gmail.com" && password === "12345") {
+      if (email === "jozias.martini@gmail.com" && password === "password12345") {
         console.log("User logged in.");
         navigate("/symptoms");
       } else {
