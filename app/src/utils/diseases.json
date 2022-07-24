@@ -1,13 +1,68 @@
 [
   {
-    "name": "Gripe",
-    "description": "Descrição da doença aqui",
+    "name": "Depressão",
+    "description": "A depressão se caracteriza por uma constante sensação de tristeza, pessimismo e baixa autoestima.",
     "symptoms": [
-      "fever",
-      "chills",
-      "sore throat",
-      "nausea",
-      "diarrhea"
+      "ansiedade",
+      "angústia",
+      "apatia",
+      "baixa autoestima",
+      "desejo de morrer",
+      "dificuldade de concentração",
+      "falta de motivação",
+      "falta de vontade",
+      "humor variável",
+      "insônia",
+      "irritabilidade",
+      "perda de apetite",
+      "perda de peso",
+      "pessimismo",
+      "queda da libido",
+      "desânimo",
+      "cansaço",
+      "falta de sentido"
+    ],
+    "treatments": [
+      "fluoxetina",
+      "escitalopram"
+    ]
+  },
+  {
+    "name": "Obesidade",
+    "description": "A obesidade é o acúmulo de gordura corporal causada por uma ingestão excessiva de calorias que não são metabolizadas.",
+    "symptoms": [
+      "artrite",
+      "dores musculares",
+      "compulsão alimentar",
+      "dificuldade respiratória",
+      "glicemia elevada",
+      "insulina elevada",
+      "peso corporal excessivo",
+      "pressão alta",
+      "problemas cardiovasculares"
+    ],
+    "treatments": [
+      "exercícios físicos",
+      "alimentação saudável"
+    ]
+  },
+  {
+    "name": "Hipertensão arterial",
+    "description": "Popularmente conhecida como pressão alta, ocorre quando os valores da pressão arterial ficam igual ou acima de 140/90 milímetros de mercúrio.",
+    "symptoms": [
+      "dores de cabeça",
+      "dores no braço",
+      "dores no peito",
+      "tontura",
+      "visão turva",
+      "zumbido no ouvido"
+    ],
+    "treatments": [
+      "não fumar",
+      "exercícios físicos",
+      "alimentação saudável",
+      "ingerir pouco sal",
+      "diminuir as bebidas alcoólicas"
     ]
   }
 ]
