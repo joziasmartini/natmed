@@ -12,7 +12,6 @@ export default function SearchInput({saveSymptoms, savedSymptoms}: Props) {
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     setInputValue(event.target.value);
-    console.log('value: ', event.target.value);
   }
 
   function keyPress(e: any){
