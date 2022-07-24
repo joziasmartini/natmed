@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Gripe",
+    "description": "Descrição da doença aqui",
+    "symptoms": [
+      "fever",
+      "chills",
+      "sore throat",
+      "nausea",
+      "diarrhea"
+    ]
+  }
+]
