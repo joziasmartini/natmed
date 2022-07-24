@@ -10,7 +10,9 @@
 .disease-card 
   display: flex
   justify-content: space-between
-  align-items: flex-start;
+
+.disase-card-icon
+  align-self: flex-start
 
 .disease-card-text
   margin-left: 10px 
@@ -45,15 +47,21 @@
 
 .disease-card-buttons 
   margin: 0 auto
-  width: 80%
   display: flex
   justify-content: space-between
 
   & > a
-    margin: 5px 0
-    padding: 3px 15px
+    margin: 10px 0 0
+    padding: 5px 15px
     background: $primary
     color: white
     font-weight: bold
     text-decoration: none
     border-radius: 100px
+    font-size: 14px
+
+    &:active
+      color: white
+
+    &:visited
+      color: white
