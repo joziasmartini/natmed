@@ -17,7 +17,7 @@ function Symptoms() {
           <TopBar back />
         </Link>
         <SearchInput saveSymptoms={setSymptoms} savedSymptoms={symptoms}/>
-        <span className="symptoms-caption">Usamos os sintomas que você insere para gerar o seu diagnóstico</span>
+        <span className="symptoms-caption">Utilizamos os sintomas que você insere para gerar o seu diagnóstico</span>
         <Tags tags={symptoms}/>
         <Link to="/diagnosis">
           <Button 
