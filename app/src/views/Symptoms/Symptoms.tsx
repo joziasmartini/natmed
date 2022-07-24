@@ -19,7 +19,10 @@ function Symptoms() {
         <SearchInput saveSymptoms={setSymptoms} savedSymptoms={symptoms}/>
         <span className="symptoms-caption">Utilizamos os sintomas que você insere para gerar o seu diagnóstico</span>
         <Tags tags={symptoms}/>
-        <Link to="/diagnosis">
+        <Link 
+          to="/diagnosis" 
+          className={symptoms.length === 0 ? "disabled-link" : ""}
+        >
           <Button 
             type="primary" 
             text="Gerar Diagnóstico" 
