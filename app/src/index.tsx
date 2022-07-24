@@ -1,19 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import reportWebVitals from "./reportWebVitals";
 import "./Global.sass";
+import reportWebVitals from "./reportWebVitals";
 import Symptoms from "./views/Symptoms/Symptoms";
 import Login from "./views/Login/Login";
 import Diagnosis from "./views/Diagnosis/Diagnosis";
+import Loading from "./views/Loading/Loading";
 
 // Animation library
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Loading from "./views/Loading/Loading";
-AOS.init({
-  duration: 900,
-});
+AOS.init({ duration: 900 });
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -21,23 +19,27 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Loading />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/symptoms" element={<Symptoms />} />
-      <Route path="/diagnosis" element={<Diagnosis />} />
+      <Routes>
+        {/* Loading or splash screen */}
+        <Route path="/" element={<Loading />} /> 
 
-      {/* Route when the user selects a disease to know more about */}
-      {/* <Route path="/details" element={<Details />} /> */}
+        {/* Login screen with authentication */}
+        <Route path="/login" element={<Login />} /> 
 
-      {/* Route when the user clicks on treatments on a detailed disease */}
-      {/* <Route path="/products" element={<Products />} /> */}
-    </Routes>
+        {/* Screen where the user tell the symptoms */}
+        <Route path="/symptoms" element={<Symptoms />} /> 
+
+        {/* Where we show the processed diagnosis and informations */}
+        <Route path="/diagnosis" element={<Diagnosis />} /> 
+
+        {/* Screen when the user selects the "know more" button on a disease card */}
+        {/* <Route path="/details" element={<Details />} /> */}
+
+        {/* Screen when the user selects the "treatment" button on a disease card */}
+        {/* <Route path="/products" element={<Treatments />} /> */}
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);
