@@ -35,7 +35,7 @@ function Login() {
         <Version info={Package.version} />
         <Input type="text" placeholder="Email" action={setEmail} />
         <Input type="password" placeholder="Password" action={setPassword} />
-        {accountError && <span className="login-error">Seu email ou password está incorreto.</span>}
+        {accountError && <span className="login-error">Seus dados de acesso estão incorretos.</span>}
         <Button type="primary" text="Login" action={clickHandle} width={150} />
       </div>
       <Space pixels={0} />
